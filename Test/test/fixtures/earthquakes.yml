@@ -1,0 +1,33 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 
+  type: 
+  external_id: MyString
+  magnitude: 1.5
+  place: MyString
+  magnitude: 1.5
+  place: MyString
+  time: MyString
+  tsunami: false
+  mag_type: MyString
+  title: MyString
+  longitude: 1.5
+  latitude: 1.5
+  external_url: MyString
+
+two:
+  id: 
+  type: 
+  external_id: MyString
+  magnitude: 1.5
+  place: MyString
+  magnitude: 1.5
+  place: MyString
+  time: MyString
+  tsunami: false
+  mag_type: MyString
+  title: MyString
+  longitude: 1.5
+  latitude: 1.5
+  external_url: MyString
