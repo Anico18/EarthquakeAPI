@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+.navItems {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    padding-left: 20px;
+    color: white;
+}
+
+.navItems > a {
+    text-decoration: none;
+    color: white;
+}
