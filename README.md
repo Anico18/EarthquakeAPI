@@ -202,6 +202,15 @@ const handlePageClickNext = () => {
 };
 ```
 
-## Dificultades de desarrollo
+## Retos de desarrollo
 
 La principal dificultad en el desarrollo de este proyecto fue el formato API. Siempre he aprendido a desarrollar con renderización de vistas directamente en el proyecto MVC, por lo que exponer APIs y leer APIs fue el reto más grande que he enfrentado en este proyecto; es necesario mencionar que fue complicado hacer que React comprenda la información y no falle en caso de recibir `NULL` y espera a que llegue la información. A su vez, la paginación fue complicada sobre todo por el envío de información de frontend al backend para que se envíe el siguiente _chunk_ de información. Asimismo, me resultó complicado el filtro de información y, lamentablemente, no se ha podido implementar de manera satisfactoria.
+
+## Peticiones por Postman
+
+Las peticiones que se utilizaron en Postman, para probar el correcto funcionamiento del aplicativo, fueron las siguientes, todas con acción _GET_:
+- Para obtener y persistir la lista de _features_: `http://localhost:3000/api/features/features`
+- Para ver la los _features_ persistidos en la base de datos: `http://localhost:3000/api/features/test`
+- Para ver la lista de comentarios: `http://localhost:3000/api/features/comments/`
+
+Los comentario se agregaron directamente desde el frontend a partir de una conexión con el API con acción _POST_.
